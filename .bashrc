@@ -20,4 +20,4 @@ mkcd (){ mkdir -p -- "$1" && cd -P -- "$1"; }
 # Succinct git status
 alias gs='git status -sb';
 alias gb="git checkout -b ";
-alias nfcore_conda="source activate nf-core-tools";
+alias nfcore_conda="conda activate nf-core-tools";
